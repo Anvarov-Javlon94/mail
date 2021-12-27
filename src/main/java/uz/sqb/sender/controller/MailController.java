@@ -24,6 +24,7 @@ public class MailController {
         String to = "janvarov@uzpsb.uz";
         String from = "anvarov.javlon94@gmail.com";
         emailService.sendMessage(subject,text,to,from);
+        System.out.println("Hi");
         return ResponseEntity.ok("Ok");
     }
 
